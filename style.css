@@ -1,0 +1,44 @@
+h1 {
+  text-align: center;
+  color: darkred;
+  padding: 10px;
+  border-bottom: 1px solid green;
+  text-transform: uppercase;
+}
+h2 {
+  color: royalblue;
+}
+.descripcion {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.name {
+  color: royalblue;
+  font-size: 1.5em;
+}
+p {
+  padding: 10px;
+  line-height: 30px;
+  font-size: 1.1em;
+}
+
+body > a {
+  display: inline-block;
+  margin: 5px;
+  text-decoration: none;
+  color: grey;
+}
+
+body > a:hover {
+  color: royalblue;
+}
+.enlaces-externos {
+  text-align: center;
+}
+.enlaces-externos > a {
+  padding: 10px;
+}
+.correo a {
+  display: inline-block;
+  margin: 0 10px;
+}
